@@ -16,3 +16,5 @@ The main function is model(), including the following parameters:
 If training data and test data are included in one csv file, single is TRUE, and the parameter train path is csv path, the test path is None. samples_number must be specified.
 
 If training data and test data are two csv files, single is FALSE, train path and test path must be specified, samples_number can be None.
+
+In the original code, since all the data used in the experiment have labels, the labels of samples selected by active learning are directly extracted. For the data set without labels, the code for obtaining the sample labels needs to be modified into the form of human-computer interaction, where the samples can be printed and the user can input the corresponding labels.
