@@ -19,4 +19,4 @@ If training data and test data are two csv files, single is FALSE, train path an
 
 In the original code, since all the data used in the experiment have labels, the labels of samples selected by active learning are directly extracted. For the data set without labels, the code for obtaining the sample labels needs to be modified into the form of human-computer interaction, where the samples can be printed and the user can input the corresponding labels. (The variable instances_labels in line 121, 164, 225, 271)
 
-![Figure]https://github.com/hoodpy/AI-WSELM/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220823165715.png
+![Figure_1](https://github.com/hoodpy/AI-WSELM/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220823165715.png)
