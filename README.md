@@ -2,7 +2,6 @@
 R code for paper: Active learning with extreme learning machine for online imbalanced multiclass classification
 
 The main function is model(), including the following parameters:
-
 	c: A trad-off between the training error and the generalization ablilty.  
 	node: The number of nodes in the hidden layer.  
 	threshold: Average threshold A, using for similarity query.  
